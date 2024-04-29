@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/formulario.css" />
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <div class="contenedor">
+        <section>
+            <form action="https://formsubmit.co/tu_correo@example.com" method="POST">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre" required>
+                </div>
+
+                <div class="fechaNacimiento">
+                    <label for="fechaNac">Fecha de Nacimiento</label>
+                    <input type="date" id="fechaNac" name="fechaNac" placeholder="dia-mes-año" required>
+                </div>
+
+                <div class="sexo">
+                    <label for="sexo_masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="sexo_masculino" value="masculino" required>
+
+                    <label for="sexo_femenino">Femenino</label>
+                    <input type="radio" name="sexo" id="sexo_femenino" value="femenino" required>
+                </div>
+
+                <div class="lugarNacimiento">
+                    <label for="lugar">Lugar de Nacimiento</label>
+                    <select name="lugar" id="lugar">
+                        <option>ahome</option>
+                        <option>angostura</option>
+                        <option>badiraguato</option>
+                        <option>concordia</option>
+                        <option>cosala</option>
+                        <option>culiacan</option>
+                        <option>choix</option>
+                        <option>elota</option>
+                        <option>escuinapa</option>
+                        <option>el fuerte</option>
+                        <option>guasave</option>
+                        <option>mazatlan</option>
+                        <option>mocorito</option>
+                        <option>rosario</option>
+                        <option>salvador alvarado</option>
+                        <option>san ignacio</option>
+                        <option>sinaloa</option>
+                        <option>navolato</option>
+                    </select>
+                </div>
+
+                <div class="idiomas">
+                    <label for="idiomas">Idiomas</label>
+                    <ul>
+                        <li>
+                            <label for="español">Español</label>
+                            <input type="checkbox" name="idioma" id="idioma_espanol" value="español">
+                        </li>
+                        <li>
+                            <label for="ingles">Inglés</label>
+                            <input type="checkbox" name="idioma" id="idioma_ingles" value="ingles">
+                        </li>
+                        <li>
+                            <label for="chino">Chino</label>
+                            <input type="checkbox" name="idioma" id="idioma_chino" value="chino">
+                        </li>
+                        <li>
+                            <label para="portugues">Portugués</label>
+                            <input type="checkbox" name="idioma" id="idioma_portugues" value="portugues">
+                        </li>
+                        <li>
+                            <label para="japones">Japonés</label>
+                            <input type="checkbox" name="idioma" id="idioma_japones" value="japones">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="correo">
+                    <label para="correo">Correo electrónico</label>
+                    <input type="email" name="correo" id="correo" placeholder="tu_correo@example.com" required>
+                </div>
+
+                <div class="habitos">
+                    <label para="habitos">Hábitos personales</label>
+                    <textarea name="habitos" id="habitos" cols="50" rows="10" placeholder="Escribe aquí tus hábitos personales"></textarea>
+                </div>
+
+                <div class="nivelIngreso">
+                    <label para="nivelIngreso">Nivel de Ingresos</label>
+                    <input type="range" name="nivelIngreso" id="nivelIngreso" list="ingresosList" min="5000" max="50000" value="25000">
+                    <datalist id="ingresosList">
+                        <option value="5000"></option>
+                        <option value="10000"></option>
+                        <option value="15000"></option>
+                        <option value="20000"></option>
+                        <option value="25000"></option>
+                        <option value="30000"></option>
+                        <option value="35000"></option>
+                        <option value="40000"></option>
+                        <option value="45000"></option>
+                        <option value="50000"></option>
+                    </datalist>
+                </div>
+
+                <div class="horario">
+                    <label para="HorarioDisponible">Horario Disponible</label>
+                    <input type="time" name="HorarioDisponible" id="inicio" required>
+                    <label para="HorarioDisponible_fin">a</label>
+                    <input type="time" name="HorarioDisponible" id="fin" required>
+                </div>
+
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.contenedor {
+    margin: auto;
+    background-color: lemonchiffon;
+    width: 900px;
+    height: 600px;
+    border: 5px solid black;
+}
+
+.nombre {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.nombre input {
+    width: 420px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.fechaNacimiento {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fechaNacimiento input {
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.sexo {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.lugarNacimiento {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.lugarNacimiento select {
+    width: 155px;
+    height: 25px;
+}
+
+.idiomas {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.idiomas ul {
+    list-style-type: none;
+}
+
+.idiomas li {
+    padding-bottom: 10px;
+}
+
+.correo {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.correo input {
+    width: 300px;
+    height: 25px;
+}
+
+.habitos {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.nivelIngreso {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.horario {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.botones {
+    text-align: center;
+    padding-top: 20px;
+}
